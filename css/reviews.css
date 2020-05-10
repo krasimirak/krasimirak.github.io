@@ -1,0 +1,14 @@
+.review {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.final-rating {
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.ratings {
+  margin-bottom: 20px;
+}

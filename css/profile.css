@@ -1,29 +1,12 @@
-.title {
-	text-align: center;
-  margin-bottom: 70px;
-  text-emphasis: bold;
-}
-
 .profile-section {
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-a:link, a:visited {
-  color:black;
-  text-decoration: none;
-}
-
 .course-title {
   font-weight: none;
   margin-bottom: 20px;
-}
-
-hr {
-  background-color: black;
-  border: 0.5px solid black;
-  margin-bottom: 10px;
 }
 
 body {

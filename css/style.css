@@ -12,7 +12,7 @@ nav {
 	height: 80px;
 }
 
-nav *, h1, h2, h3, h4, h5, h6, .button, label, input, input::placeholder, .rating {
+nav *, h1, h2, h3, h4, h5, h6, .button, label, input, input::placeholder, .rating, .title, .name {
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -89,7 +89,34 @@ p {
 	}
 }
 
+a:link, a:visited {
+  color:black;
+  text-decoration: none;
+}
+
 .rating > .checked {
 	color: orange;
 	margin-bottom: 10px;
+}
+
+.title {
+	text-align: center;
+  margin-bottom: 70px;
+  text-emphasis: bold;
+}
+
+.main-center {
+  margin: auto;
+  width: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+hr {
+  background-color: black;
+  border: 0.5px solid black;
+  margin-bottom: 10px;
 }
