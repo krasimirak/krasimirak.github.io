@@ -12,3 +12,8 @@
 .ratings {
   margin-bottom: 20px;
 }
+
+.main-center {
+  margin: auto;
+  width: 50%;
+}
