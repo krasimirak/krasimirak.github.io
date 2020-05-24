@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ShareFMI</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<nav></nav>
+		<main>
+			<section class="main">
+				<div class="create-course form-wrapper">
+					<h1>Създай курс</h1>
+					<form>
+						<div>
+							<label>
+								Име <span class="required-star">*</span>
+							</label>
+							<input type="text" placeholder="Въведи име..." required>
+						</div>
+						<div>
+							<label>
+								Избери семестър <span class="required-star">*</span>
+							</label>
+							<select placeholder="Избери семестър">
+								<option value="зимен">зимен</option>
+								<option value="летен">летен</option>
+							</select>
+						</div>
+						<div>
+							<label>
+								Анотация <span class="required-star">*</span>
+							</label>
+							<textarea placeholder="Въведи анотация..." required></textarea>
+						</div>
+
+						<div>
+							<label>
+								Избери категория <span class="required-star">*</span>
+							</label>
+							<select placeholder="Избери категория">
+								<option value="м">Математика</option>
+								<option value="пм">Приложна математика</option>
+								<option value="ст">Статистика</option>
+								<option value="окн">Основни на компютърните науки </option>
+								<option value="якн">Ядро на компютърните науки</option>
+								<option value="кп">Компютърен практикум </option>
+								<option value="с">Семинар</option>
+								<option value="х">Хуманитарни</option>
+								<option value="др">Други</option>
+							</select>
+						</div>
+						
+						<div>
+							<label>
+								Парола <span class="required-star">*</span>
+							</label>
+							<input type="password" placeholder="********" required>
+						</div>
+
+						<div>
+							<label>
+								Повтори парола <span class="required-star">*</span>
+							</label>
+							<input type="password" placeholder="********" required>
+						</div>
+
+						<div>
+							<label>
+								ID код <span class="required-star">*</span>
+							</label>
+							<input type="text" placeholder="Издаден от ФМИ" required>
+						</div>
+
+						<button class="button">Вписване</button>
+					</form>
+				</div>
+
+			</section>
+		</main>
+	</body>
+</html>

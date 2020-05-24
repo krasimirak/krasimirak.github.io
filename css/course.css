@@ -6,23 +6,22 @@
 
 .info-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .main-center {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
 }
 
 .left {
   padding-right: 30px;
-  text-align: end;
+  text-align: left;
   flex: 1;
 }
 
 .right {
   flex: 2;
-  border-left: 1px solid black;
   padding-left: 30px;
   padding-bottom: 30px;
 }
@@ -70,4 +69,29 @@ ol {
 .buttons {
   padding-right: 60px;
   padding-left: 80px;
+}
+
+.title-container > .left, .info-line > .left {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .info-section {
+    flex-direction: row;
+  }
+  
+  .left {
+    text-align: right;
+  }
+  .right {
+    border-left: 1px solid black;
+  }
+  
+  .main-center {
+    flex-direction: row;
+  }
+
+  .title-container > .left, .info-line > .left {
+    display: block;
+  }
 }

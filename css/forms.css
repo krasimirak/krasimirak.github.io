@@ -25,16 +25,20 @@ label {
   margin-top: 20px;
 }
 
-input {
+input, select, textarea {
   border-radius: 20px;
   border: 1px solid #777777;
   padding: 12px 16px;
   width: 60%;
 }
 
-input::placeholder {
+input::placeholder, select::placeholder, textarea::placeholder {
   font-size: 16px;
   font-weight: 200;
+}
+
+textarea {
+  min-height: 80px;
 }
 
 form {
@@ -84,8 +88,12 @@ form {
     margin-top: 0;
   }
 
-  input {
+  input, select, textarea {
     width: 90%;
+  }
+  select {
+    height: 50px;
+    border-radius: 20px !important;
   }
   form .button {
     margin-top: 40px;
