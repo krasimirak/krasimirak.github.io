@@ -5,11 +5,28 @@
 		<title>ShareFMI</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/course.css">
+    
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	</head>
 
 	<body>
-		<nav></nav>
-		<main>
+    <ul>
+      <a href=""><li><img class="logo" src="images/logo.png"/></li></a>
+      <li><a href="">Курсове</a></li>
+      <li>
+        <div class="search-container">
+          <form class="search">
+            <input type="text" placeholder="Търси.." name="search">
+            <button class="search-button" type="submit"><i class="fa fa-search search-icon"></i></button>
+          </form>
+        </div>
+      </li>
+      <li class="right-option"><a class="active" href="home-unsigned.html">Изход</a></li>
+			<li class="right-option"><a class="active" href="my-profile-admin.html">Моят Профил</a></li>
+			<li class="right-option"><a class="active" href="create-course.html">Създай курс</a></li>
+		</ul>
+
+    <main>
 			<section class="main">
         <div class="main-center">
           <div class="content">
@@ -24,7 +41,7 @@
                 <div class="left"></div>
                 <div class="right">
                   <h3>Семестър: Зимен</h3>
-                  <h3>Преподавател: доц. Я. Иванов</h3>
+                  <h3>Преподавател: <a href="profile-educator.html">доц. Я. Иванов</a></h3>
                   <h3>Категория: ЯКН</h3>
                 </div>
               </div>
@@ -64,7 +81,7 @@
             </div>
           </div>
           <div class="buttons">
-            <a href=""><button class="button warning">Редактиране</button></a>
+            <a href=""><button class="button warning edit-button"><i class='far fa-edit edit-icon'></i>Редактиране</button></a>
             <a href="reviews.html"><button class="button">Преглед на ревюта</button></a>
           </div>   
         </div>

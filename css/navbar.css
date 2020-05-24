@@ -7,7 +7,6 @@ ul {
   padding: 10px 0;
 }
 
-
 li {
   float: left;
 }
@@ -29,11 +28,11 @@ li a:hover {
 }
 
 
-.topnav input[type=text] {
+.search-container input[type=text] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
-  border: none;
+  border: 1px solid black;
 }
 
 .search-container button {
@@ -41,8 +40,22 @@ li a:hover {
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
+  background: white;
   font-size: 17px;
   border: none;
   cursor: pointer;
+}
+
+.search {
+	display: flex;
+	align-items: baseline;
+}
+
+.logo {
+  object-fit: cover;
+  height: 50px;;
+}
+
+.right-option {
+  float: right;
 }

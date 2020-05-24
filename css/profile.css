@@ -37,7 +37,7 @@ body {
 }
 
 i {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 main {
@@ -48,4 +48,8 @@ main {
 .main {
   height: 100%;
   overflow: scroll;
+}
+
+.edit-icon {
+  font-size: 18px;
 }

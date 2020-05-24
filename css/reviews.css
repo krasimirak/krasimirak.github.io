@@ -17,3 +17,14 @@
   margin: auto;
   width: 50%;
 }
+
+.main-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.action {
+  text-decoration: underline;
+}

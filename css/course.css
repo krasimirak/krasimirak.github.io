@@ -96,3 +96,12 @@ ol {
     display: block;
   }
 }
+
+.edit-button {
+  display: flex;
+  align-items: baseline;
+}
+
+.edit-icon {
+  margin-right: 10px;
+}
