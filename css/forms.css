@@ -16,6 +16,7 @@ body .unregistered-home {
 
 form > div {
   margin: 20px auto;
+  vertical-align: top;
 }
 
 label {
@@ -58,6 +59,10 @@ form {
   margin-top: 20px;
 }
 
+.filters select {
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 1024px) {
   .unregistered-home {
     display: flex;
@@ -93,7 +98,7 @@ form {
   }
   select {
     height: 50px;
-    border-radius: 20px !important;
+    border-radius: 30px !important;
   }
   form .button {
     margin-top: 40px;
