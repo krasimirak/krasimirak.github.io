@@ -19,3 +19,12 @@
     top: 6px;
     right: 20px;
 }
+
+.filters select {
+    -webkit-appearance: none;
+}
+
+.sidebar h2 {
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
