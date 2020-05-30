@@ -202,3 +202,7 @@ a:hover {
   color: #e57900;
 }
 
+.forgotten-password .form-wrapper {
+  display: block;
+  margin: auto;
+}
