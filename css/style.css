@@ -76,21 +76,11 @@ p {
 	border-top: 0.5px solid black;
 }
 
-@media screen and (min-width: 550px) {
+
+@media screen and (min-width: 1024px) {
 	.background {
 		display: flex;
 	}
-
-	.sidebar {
-		flex-basis: 35%;
-	}
-
-	.main {
-		flex-basis: 65%;
-	}
-}
-
-@media screen and (min-width: 1024px) {
 	.sidebar {
 		flex-basis: 25%;
 	}

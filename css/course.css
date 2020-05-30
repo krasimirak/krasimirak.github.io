@@ -99,7 +99,7 @@ ol {
   margin-right: 10px;
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1024px) {
   .info-line > .right {
     display: flex;
     flex-direction: row;
