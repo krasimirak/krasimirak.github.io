@@ -54,9 +54,6 @@ p {
 	background: pink;
 }
 
-.background {
-	background-color: #FFE7CC;
-}
 
 .background, .sidebar, .main {
   min-height: calc(100vh - 80px);
