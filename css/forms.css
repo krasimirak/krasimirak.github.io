@@ -55,7 +55,8 @@ form {
   display: block;
   padding: 8px 40px;
 }
-.login p, .register p {
+
+form p {
   font-family: 'Nunito', sans-serif;
   margin-top: 20px;
 }
@@ -126,6 +127,7 @@ form {
 
   input, select, textarea {
     width: 90%;
+    font-size: 16px;
   }
   select {
     /* height: 50px; */
@@ -136,6 +138,44 @@ form {
   }
   .select-wrapper {
     width: 100%;
+  }
+
+  .create-course .form-wrapper {
+    width: 75%;
+  }
+  .create-course .form-wrapper .select-wrapper {
+    max-width: 100%;
+  }
+
+  .add-review-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .add-review-section > h3 {
+    font-weight: 700;
+  }
+
+  .add-review-section .add-review form > div {
+    margin-right: 5px;
+    width: 48.5%;
+  }
+
+  .add-review-section .add-review {
+    width: 60%;
+    margin-left: 30px;
+  }
+
+  .add-review-section .add-review textarea{
+    width: 100%;
+  }
+
+  .add-review-section .add-review h4 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
   }
 }
 
@@ -161,3 +201,4 @@ a {
 a:hover {
   color: #e57900;
 }
+

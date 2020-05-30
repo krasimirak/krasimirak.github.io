@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ShareFMI</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+
+	<body>
+    <ul class="navbar">
+		<a href="home-admin.html"><li><img class="logo" src="images/logo.png"/></li></a>
+		<li><a href="home-admin.html">Курсове</a></li>
+		<li class="right-option"><a class="active" href="index.html">Изход</a></li>
+		<li class="right-option"><a class="active" href="my-profile-admin.html">Моят Профил</a></li>
+		<li class="right-option"><a class="active" href="create-course.html">Създай курс</a></li>
+		<li class="right-option">
+			<div class="search-container">
+				<form class="search">
+				<input type="text" placeholder="Търси курсове.." name="search">
+				<button class="search-button"><i class="fa fa-search search-icon"></i></button>
+				</form>
+			</div>
+		</li>
+	</ul>
+		
+		<main>
+			<section class="main create-course">
+				<div class="form-wrapper">
+					<h1>Редактиране на курс</h1>
+					<form>
+						<div>
+							<label>
+								Наименование <span class="required-star">*</span>
+							</label>
+							<input type="text" placeholder="Въведи наименование на курса..." value="Програмиране с Rust" required>
+						</div>
+						<div>
+							<label>
+								Избери семестър <span class="required-star">*</span>
+							</label>
+							<div class="select-wrapper">
+								<select placeholder="Избери семестър">
+									<option value="зимен" selected="selected">зимен</option>
+									<option value="летен">летен</option>
+								</select>
+							</div>
+							<label style="margin-top: 20px">
+								Избери категория <span class="required-star">*</span>
+							</label>
+							<div class="select-wrapper">
+								<select placeholder="Избери категория">
+									<option value="м">Математика</option>
+									<option value="пм">Приложна математика</option>
+									<option value="ст">Статистика</option>
+									<option value="окн">Основни на компютърните науки </option>
+									<option value="якн" selected="selected">Ядро на компютърните науки</option>
+									<option value="кп">Компютърен практикум </option>
+									<option value="с">Семинар</option>
+									<option value="х">Хуманитарни</option>
+									<option value="др">Други</option>
+								</select>
+							</div>
+						</div>
+						<div>
+							<label>
+								Анотация <span class="required-star">*</span>
+							</label>
+							<textarea placeholder="Въведи анотация..." required>Курсът има за цел да запознае студентите с езика за програмиране Rust. Езикът е строго статично типизиран, създаден с идеята да е бърз, със скорост на изпълнение, близка то C++. Управлението на паметта в Rust е много специфично и се дават силни гаранции за безопасност на кода. В курса ще бъде показано как се постига тази безопасност, какви инструменти дава езикът за управление на паметта и множество от абстракции за улесняване на програмирането с език на по-ниско ниво.</textarea>
+						</div>
+						
+						<div>
+							<label>
+								Въведи конспект <span class="required-star">*</span>
+							</label>
+							<textarea placeholder="Въведи конспект..." required>Типове и операции в езика, съпоставяне на образци и устройство на програмата
+Създаване и устройство на проекти, модули и тестване
+Собственост и обхват, референции и 'даване назаем', изменимост и неизменимост, продължителност на живота на референциите.
+Структури и енумерации, низове, вектори, анонимни функции и шаблони
+Типажи и типажни обекти
+Псевдоними на типове и преобразуване между типове, указатели и грешки
+Метапрограмиране
+Итератори конкурентен модел извикване на външни функции</textarea>
+						</div>
+
+						<div>
+							<label>
+								Предварителни изисквания <span class="required-star">*</span>
+							</label>
+							<textarea placeholder="Въведи предварителни изисквания..." required>Успешно преминати дисциплини по увод в процедурното програмиране, обектно-ориентирано програмиране и структури от данни.</textarea>
+						</div>
+
+						<div>
+							<label>
+								Очаквани резултати <span class="required-star">*</span>
+							</label>
+							<textarea placeholder="Въведи очаквани резултати..." required>След завършване на курса, студентите ще могат да реализират приложения с използването на Rust и да боравят свободно със синтактичните конструкции на езика.</textarea>
+						</div>
+
+						<p>
+							Полетата маркирани с “*” е задължително да са попълнени.
+						</p>
+						<p>
+							Не е задължителна промяна на всички полета.
+						</p>
+
+						<button class="button"><a href="./course-admin.html">Редактиране</a></button>
+					</form>
+				</div>
+
+			</section>
+		</main>
+	</body>
+</html>

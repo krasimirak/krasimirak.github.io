@@ -31,9 +31,9 @@
 					<form>
 						<div>
 							<label>
-								Име <span class="required-star">*</span>
+								Наименование <span class="required-star">*</span>
 							</label>
-							<input type="text" placeholder="Въведи име..." required>
+							<input type="text" placeholder="Въведи наименование на курса..." required>
 						</div>
 						<div>
 							<label>
@@ -45,16 +45,7 @@
 									<option value="летен">летен</option>
 								</select>
 							</div>
-						</div>
-						<div>
-							<label>
-								Анотация <span class="required-star">*</span>
-							</label>
-							<textarea placeholder="Въведи анотация..." required></textarea>
-						</div>
-
-						<div>
-							<label>
+							<label style="margin-top: 20px">
 								Избери категория <span class="required-star">*</span>
 							</label>
 							<div class="select-wrapper">
@@ -71,29 +62,39 @@
 								</select>
 							</div>
 						</div>
+						<div>
+							<label>
+								Анотация <span class="required-star">*</span>
+							</label>
+							<textarea placeholder="Въведи анотация..." required></textarea>
+						</div>
 						
 						<div>
 							<label>
-								Парола <span class="required-star">*</span>
+								Въведи конспект <span class="required-star">*</span>
 							</label>
-							<input type="password" placeholder="********" required>
+							<textarea placeholder="Въведи конспект..." required></textarea>
 						</div>
 
 						<div>
 							<label>
-								Повтори парола <span class="required-star">*</span>
+								Предварителни изисквания <span class="required-star">*</span>
 							</label>
-							<input type="password" placeholder="********" required>
+							<textarea placeholder="Въведи предварителни изисквания..." required></textarea>
 						</div>
 
 						<div>
 							<label>
-								ID код <span class="required-star">*</span>
+								Очаквани резултати <span class="required-star">*</span>
 							</label>
-							<input type="text" placeholder="Издаден от ФМИ" required>
+							<textarea placeholder="Въведи очаквани резултати..." required></textarea>
 						</div>
 
-						<button class="button">Вписване</button>
+						<p>
+							Полетата маркирани с “*” са задължителни.
+						</p>
+
+						<button class="button"><a href="./course-admin.html">Създаване</a></button>
 					</form>
 				</div>
 

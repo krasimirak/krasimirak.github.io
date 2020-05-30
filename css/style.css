@@ -125,3 +125,7 @@ button {
 .main.create-course {
 	text-align: center;
 }
+
+button:hover {
+	cursor: pointer;
+}
