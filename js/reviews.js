@@ -15,6 +15,7 @@ $('.delete').on('click', event => {
     if ( window.confirm("Сигурни ли сте че искате да изтриете това ревю?") ) {
         $(deleteButton).addClass('true')
         $(deleteButton).find('a').text('Успешно изтрихте това ревю')
+        $(deleteButton).find('a').css('color', 'red')
     }
 })
 
