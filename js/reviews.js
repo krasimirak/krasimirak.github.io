@@ -9,6 +9,15 @@ $('.report').on('click', event => {
 
 })
 
+$('.delete').on('click', event => {
+    let deleteButton = event.currentTarget
+
+    if ( window.confirm("Сигурни ли сте че искате да изтриете това ревю?") ) {
+        $(deleteButton).addClass('true')
+        $(deleteButton).find('a').text('Успешно изтрихте това ревю')
+    }
+})
+
 $('.add').on('click', event => {
     event.preventDefault();
     let reviewLength = $('textarea').val().length;

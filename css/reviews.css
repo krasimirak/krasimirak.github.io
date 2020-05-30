@@ -32,10 +32,10 @@
   text-decoration: underline;
 }
 
-.report.true {
+.report.true, .delete.true {
   text-decoration: none;
 }
-.report.true a {
-  color: red;
+.report.true a, .delete.true а {
+  color: red !important;
   cursor: auto;
 }
