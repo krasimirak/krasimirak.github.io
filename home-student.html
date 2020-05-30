@@ -4,84 +4,92 @@
 		<meta charset="UTF-8">
 		<title>ShareFMI</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-
+		
 	</head>
 
 	<body>
-		<ul>
-			<a href=""><li><img class="logo" src="images/logo.png"/></li></a>
-			<li><a href="#news">Курсове</a></li>
-			<li>
-			  <div class="search-container">
-				<form class="search">
-				  <input type="text" placeholder="Търси.." name="search">
-				  <button class="search-button" type="submit"><i class="fa fa-search search-icon"></i></button>
-				</form>
-			  </div>
-			</li>
+		<ul class="navbar">
+			<a href="home-student.html"><li><img class="logo" src="images/logo.png"/></li></a>
+			<li><a href="home-student.html">Курсове</a></li>
 			<li class="right-option"><a class="active" href="index.html">Изход</a></li>
 			<li class="right-option"><a class="active" href="my-profile-student.html">Моят Профил</a></li>
+			<li class="right-option">
+				<div class="search-container">
+				  <form class="search">
+					<input type="text" placeholder="Търси курсове.." name="search">
+					<button class="search-button"><i class="fa fa-search search-icon"></i></button>
+				  </form>
+				</div>
+			</li>		
 		</ul>
 		
 		<main class="background">
 			<sidebar class="sidebar">
 				<h2>Филтриране</h2>
 				<form class="filters">
-					<select>
-						<option value="вс">Всички специалности</option>
-						<option value="м">Математика</option>
-						<option value="пм">Приложна математика</option>
-						<option value="ст">Статистика</option>
-						<option value="ми">Математика и Информатика</option>
-						<option value="си" selected="selected">Софтуерно инженерство</option>
-						<option value="кн">Компютърни науки</option>
-						<option value="ис">Информационни системи</option>
-						<option value="и">Информатика</option>
-					</select>	
-					<select>
-						<option value="вс" selected="selected">Всички курсове</option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-					</select>	
-					<select>
-						<option value="вс">Семестър</option>
-						<option value="зи">Зимен</option>
-						<option value="ле" selected="selected">Летен</option>
-					</select>	
-					<select>
-						<option value="вс" selected="selected">Всички категории</option>
-						<option value="м">Математика</option>
-						<option value="пм">Приложна математика</option>
-						<option value="ст">Статистика</option>
-						<option value="окн">Основни на компютърните науки </option>
-						<option value="якн">Ядро на компютърните науки</option>
-						<option value="кп">Компютърен практикум </option>
-						<option value="с">Семинар</option>
-						<option value="х">Хуманитарни</option>
-						<option value="др">Други</option>
-					</select>
+					<div class="select-wrapper">
+						<select>
+							<option value="вс">Всички специалности</option>
+							<option value="м">Математика</option>
+							<option value="пм">Приложна математика</option>
+							<option value="ст">Статистика</option>
+							<option value="ми">Математика и Информатика</option>
+							<option value="си" selected="selected">Софтуерно инженерство</option>
+							<option value="кн">Компютърни науки</option>
+							<option value="ис">Информационни системи</option>
+							<option value="и">Информатика</option>
+						</select>
+					</div>
+					<div class="select-wrapper">
+						<select>
+							<option value="вс" selected="selected">Всички курсове</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+					</div>
+					<div class="select-wrapper">
+						<select>
+							<option value="вс">Семестър</option>
+							<option value="зи">Зимен</option>
+							<option value="ле" selected="selected">Летен</option>
+						</select>
+					</div>
+					<div class="select-wrapper">
+						<select>
+							<option value="вс" selected="selected">Всички категории</option>
+							<option value="м">Математика</option>
+							<option value="пм">Приложна математика</option>
+							<option value="ст">Статистика</option>
+							<option value="окн">Основни на компютърните науки </option>
+							<option value="якн">Ядро на компютърните науки</option>
+							<option value="кп">Компютърен практикум </option>
+							<option value="с">Семинар</option>
+							<option value="х">Хуманитарни</option>
+							<option value="др">Други</option>
+						</select>
+					</div>
 				</form>
 			</sidebar>
 			<section class="main">
 				<h1>Курсове</h1>
 				<div class="courses-overview">
-					<div class="course-heading">
+					<a href="course.html" class="course-heading">
 						<p>Проектиране на човеко-машинен интерфейс</p>
-					</div>
-					<div class="course-heading">
+					</a>
+					<a href="course.html" class="course-heading">
 						<p>Разпределени софтуерни архитектури</p>
-					</div>
-					<div class="course-heading">
+					</a>
+					<a href="course.html" class="course-heading">
 						<p>Web технологии</p>
-					</div>
-					<div class="course-heading">
+					</a>
+					<a href="course.html" class="course-heading">
 						<p>Анализ на софтуерните изисквания</p>
-					</div>
-					<div class="course-heading">
+					</a>
+					<a href="course.html" class="course-heading">
 						<p>Програмиране със Swift</p>
-					</div>
+					</a>
 				</div>
 				
 			</section>

@@ -1,5 +1,5 @@
-.courses-overview {
-
+.courses-overview a:hover p {
+    color: #e57900;
 }
 
 .courses-overview .course-heading p {
@@ -10,13 +10,14 @@
     border: 1px solid #777777;
     padding: 12px 16px;
     background-color: white;
+    transition: 0.2s linear color;
 }
 
 .courses-overview .course-heading p::after {
     content: '\00BB';
     position: absolute;
     font-size: 30px;
-    top: 6px;
+    top: 2px;
     right: 20px;
 }
 

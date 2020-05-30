@@ -13,9 +13,12 @@
   margin-bottom: 20px;
 }
 
-.main-center {
-  margin: auto;
-  width: 50%;
+
+@media screen and (min-width: 1024px) {
+  .main-center {
+    margin: auto;
+    width: 50%;
+  }
 }
 
 .main-line {
@@ -27,4 +30,12 @@
 
 .action {
   text-decoration: underline;
+}
+
+.report.true {
+  text-decoration: none;
+}
+.report.true a {
+  color: red;
+  cursor: auto;
 }

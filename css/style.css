@@ -11,6 +11,10 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Times New Roman', Times, serif;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
 }
 
 nav {

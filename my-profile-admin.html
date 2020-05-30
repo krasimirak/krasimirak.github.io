@@ -12,29 +12,29 @@
 	</head>
 
 	<body>
-    <ul>
-      <a href=""><li><img class="logo" src="images/logo.png"/></li></a>
-      <li><a href="">Курсове</a></li>
-      <li>
-        <div class="search-container">
-          <form class="search">
-            <input type="text" placeholder="Търси.." name="search">
-            <button class="search-button" type="submit"><i class="fa fa-search search-icon"></i></button>
-          </form>
-        </div>
-      </li>
-      <li class="right-option"><a class="active" href="index.html">Изход</a></li>
-			<li class="right-option"><a class="active" href="my-profile-admin.html">Моят Профил</a></li>
-			<li class="right-option"><a class="active" href="create-course.html">Създай курс</a></li>
-		</ul>
+    <ul class="navbar">
+		<a href="home-admin.html"><li><img class="logo" src="images/logo.png"/></li></a>
+		<li><a href="home-admin.html">Курсове</a></li>
+		<li class="right-option"><a class="active" href="index.html">Изход</a></li>
+		<li class="right-option"><a class="active" href="my-profile-admin.html">Моят Профил</a></li>
+		<li class="right-option"><a class="active" href="create-course.html">Създай курс</a></li>
+		<li class="right-option">
+			<div class="search-container">
+				<form class="search">
+				<input type="text" placeholder="Търси курсове.." name="search">
+				<button class="search-button"><i class="fa fa-search search-icon"></i></button>
+				</form>
+			</div>
+		</li>
+	</ul>
 
 		<main class="background">
 			<sidebar class="sidebar">
 				<h2 class="title">Профил</h2>
 				<div class="profile-info">
 					<h3 class="profile-section">Администратор</h3>
-					<p>Email: admin@mail.bg <a href=""><i class='far fa-edit edit-icon'></i></a></p>
-					<p>Парола: ****** <a href=""><i class='far fa-edit edit-icon'></i></a></p>
+					<p>Email: admin@mail.bg <a href="#"><i class='far fa-edit edit-icon'></i></a></p>
+					<p>Парола: ****** <a href="#"><i class='far fa-edit edit-icon'></i></a></p>
 				</div>
 			</sidebar>
 
@@ -43,7 +43,7 @@
 				<div class="review">
 					<div class="main-line">
 						<h3>Докладвано от: <a href="profile-student.html">Кристина Иванова</a></h3>
-						<div class="action"><a href="">Изтриване на ревю</a></div>
+						<div class="action"><a href="#">Изтриване на ревю</a></div>
 					</div>
 					<div class="main-line">
 						<h3><a class="name" href="profile-student.html">Автор: Павлина Стефанова</a></h3>
