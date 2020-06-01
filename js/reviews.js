@@ -16,6 +16,7 @@ $('.delete').on('click', event => {
         $(deleteButton).addClass('true')
         $(deleteButton).find('a').text('Успешно изтрихте това ревю')
         $(deleteButton).find('a').css('color', 'red')
+        $(deleteButton).find('a').css('cursor', 'default')
     }
 })
 

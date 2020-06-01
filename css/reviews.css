@@ -31,11 +31,3 @@
 .action {
   text-decoration: underline;
 }
-
-.report.true, .delete.true {
-  text-decoration: none;
-}
-.report.true a, .delete.true а {
-  color: red !important;
-  cursor: auto;
-}

@@ -54,9 +54,9 @@ p {
 	background: pink;
 }
 
-
-.background, .sidebar, .main {
-  min-height: calc(100vh - 80px);
+.background {
+	display: flex;
+	flex-direction: column;
 }
 
 .sidebar {
@@ -71,12 +71,16 @@ p {
 	background-color: #FFE7CC;
 	padding: 30px;
 	border-top: 0.5px solid black;
+	min-height: 80vh;
 }
 
 
 @media screen and (min-width: 1024px) {
+	.background, .sidebar, .main {
+		min-height: calc(100vh - 80px);
+	}
 	.background {
-		display: flex;
+		flex-direction: row;
 	}
 	.sidebar {
 		flex-basis: 25%;
@@ -126,3 +130,18 @@ button {
 button:hover {
 	cursor: pointer;
 }
+
+
+.report.true, .delete.true {
+	text-decoration: none;
+}
+
+.report.true a, .delete.true а {
+	color: red !important;
+	cursor: default;
+}
+
+.report.true a:hover, .delete.true а:hover {
+	cursor: default;
+}
+  
